@@ -1,1 +1,1 @@
-# ams2023
+# AMS 2023 LROSE Workshop
