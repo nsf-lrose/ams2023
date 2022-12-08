@@ -281,7 +281,7 @@ LDR_field_name = "LDRH";
 // Type: string
 //
 
-KDP_params_file_path = "$(BASE_DIR)/params/kdp_params.nexrad";
+KDP_params_file_path = "./params/kdp_params.nexrad";
 
 //======================================================================
 //
@@ -300,7 +300,7 @@ KDP_params_file_path = "$(BASE_DIR)/params/kdp_params.nexrad";
 // Type: string
 //
 
-PID_params_file_path = "$(BASE_DIR)/params/pid_params.nexrad";
+PID_params_file_path = "./params/pid_params.nexrad";
 
 ///////////// PID_use_KDP_self_consistency ////////////
 //
@@ -347,7 +347,7 @@ PID_use_attenuation_corrected_fields = FALSE;
 // Type: string
 //
 
-RATE_params_file_path = "$(BASE_DIR)/params/rate_params.nexrad";
+RATE_params_file_path = "./params/rate_params.nexrad";
 
 ///////////// RATE_use_KDP_self_consistency ///////////
 //

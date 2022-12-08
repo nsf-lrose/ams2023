@@ -24,7 +24,7 @@
 // Type: string
 //
 
-PID_thresholds_file_path = "$(BASE_DIR)/params/pid_thresholds.nexrad";
+PID_thresholds_file_path = "./params/pid_thresholds.nexrad";
 
 ///////////// PID_snr_threshold ///////////////////////
 //
