@@ -360,7 +360,7 @@ station_locations = {
 // Type: string
 //
 
-output_url = "$(BASE_DIR)/data/sounding/spdb";
+output_url = "$(BASE_DIR)/data/echo/sounding/spdb";
 
 ///////////// valid_period_secs ///////////////////////
 //

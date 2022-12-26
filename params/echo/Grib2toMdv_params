@@ -392,7 +392,7 @@ write_non_forecast = TRUE;
 // Type: string
 //
 
-non_forecast_mdv_url = "$(BASE_DIR)/data/sounding/mdv";
+non_forecast_mdv_url = "$(BASE_DIR)/data/echo/sounding/mdv";
 
 
 ///////////// non_forecast_timestamp //////////////////
