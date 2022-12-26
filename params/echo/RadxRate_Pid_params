@@ -310,7 +310,7 @@ PID_use_soundings_from_spdb = TRUE;
 // Type: string
 //
 
-PID_sounding_spdb_url = "$(BASE_DIR)/data/sounding/spdb/";
+PID_sounding_spdb_url = "$(BASE_DIR)/data/echo/sounding/spdb/";
 
 ///////////// PID_sounding_search_time_margin_secs ////
 //
