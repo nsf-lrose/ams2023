@@ -24,7 +24,7 @@
 // Type: string
 //
 
-PID_thresholds_file_path = "$(BASE_DIR)/params/Pid_thresholds.sband.shv.txt";
+PID_thresholds_file_path = "$(BASE_DIR)/params/echo/Pid_thresholds.sband.shv.txt";
 
 ///////////// PID_snr_threshold ///////////////////////
 //
