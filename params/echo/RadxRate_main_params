@@ -461,7 +461,7 @@ output_fields = {
     long_name = "precip_rate_from_z_for_snow",
     standard_name = "precip_rate_from_z_for_snow",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
@@ -470,7 +470,7 @@ output_fields = {
     long_name = "precip_rate_from_z_and_zdr",
     standard_name = "precip_rate_from_z_and_zdr",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
@@ -488,7 +488,7 @@ output_fields = {
     long_name = "precip_rate_from_kdp_and_zdr",
     standard_name = "precip_rate_from_kdp_and_zdr",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
@@ -506,7 +506,7 @@ output_fields = {
     long_name = "precip_rate_based_on_pid",
     standard_name = "precip_rate_based_on_pid",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
