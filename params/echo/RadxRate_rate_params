@@ -151,7 +151,7 @@ RATE_brightband_dbz_correction = -10;
 // Type: double
 //
 
-RATE_zh_aa = 0.017;
+RATE_zh_aa = 0.027366;
 
 ///////////// RATE_zh_bb //////////////////////////////
 //
@@ -161,7 +161,7 @@ RATE_zh_aa = 0.017;
 // Type: double
 //
 
-RATE_zh_bb = 0.714;
+RATE_zh_bb = 0.69444;
 
 //======================================================================
 //
@@ -207,7 +207,7 @@ RATE_zh_bb_snow = 0.625;
 // Type: double
 //
 
-RATE_zzdr_aa = 0.00684;
+RATE_zzdr_aa = 0.0067;
 
 ///////////// RATE_zzdr_bb ////////////////////////////
 //
@@ -217,7 +217,7 @@ RATE_zzdr_aa = 0.00684;
 // Type: double
 //
 
-RATE_zzdr_bb = 1;
+RATE_zzdr_bb = 0.927;
 
 ///////////// RATE_zzdr_cc ////////////////////////////
 //
@@ -227,7 +227,7 @@ RATE_zzdr_bb = 1;
 // Type: double
 //
 
-RATE_zzdr_cc = -4.86;
+RATE_zzdr_cc = -3.43;
 
 //======================================================================
 //
@@ -245,7 +245,7 @@ RATE_zzdr_cc = -4.86;
 // Type: double
 //
 
-RATE_kdp_aa = 40.6;
+RATE_kdp_aa = 44.0;
 
 ///////////// RATE_kdp_bb /////////////////////////////
 //
@@ -255,7 +255,7 @@ RATE_kdp_aa = 40.6;
 // Type: double
 //
 
-RATE_kdp_bb = 0.866;
+RATE_kdp_bb = 0.822;
 
 //======================================================================
 //
@@ -274,7 +274,7 @@ RATE_kdp_bb = 0.866;
 // Type: double
 //
 
-RATE_kdpzdr_aa = 136;
+RATE_kdpzdr_aa = 90.8;
 
 ///////////// RATE_kdpzdr_bb //////////////////////////
 //
@@ -284,7 +284,7 @@ RATE_kdpzdr_aa = 136;
 // Type: double
 //
 
-RATE_kdpzdr_bb = 0.968;
+RATE_kdpzdr_bb = 0.93;
 
 ///////////// RATE_kdpzdr_cc //////////////////////////
 //
