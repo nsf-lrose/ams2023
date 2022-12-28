@@ -8,7 +8,9 @@ The tutorials will go over a few key LROSE workflows, showing how to use frequen
 
 ### Requirements
 
-All tutorials during the AMS workshop will run on a JupyterHub server provided by Unidata. All that is required is a laptop or tablet running a modern web browser (e.g., Chrome, Firefox) that can connect to the internet. Running the notebooks on a local machine will require Jupyter notebook. The notebooks are tested to run with the Topaz release of LROSE.
+All tutorials during the AMS workshop will run on a JupyterHub server provided by Unidata. All that is required is a laptop or tablet running a modern web browser (e.g., Chrome, Firefox) that can connect to the internet. 
+
+Running the tutorials on a local machine will require the Jupyter notebook interface. The notebooks are tested to run with the Topaz release of LROSE.
 
 ### Tutorials:
 
