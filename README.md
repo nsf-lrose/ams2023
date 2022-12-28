@@ -8,7 +8,7 @@ The tutorials will go over a few key LROSE workflows, showing how to use frequen
 
 ### Requirements
 
-
+All tutorials during the AMS workshop will run on a JupyterHub server provided by Unidata. All that is required is a laptop or tablet running a modern web browser (e.g., Chrome, Firefox) that can connect to the internet.
 
 ### Tutorials:
 
@@ -26,3 +26,7 @@ The tutorials will go over a few key LROSE workflows, showing how to use frequen
 * Ting-Yu Cha (Colorado State University)
 * Michael Bell (Colorado State University)
 * Mike Dixon (National Center for Atmospheric Research)
+
+### Acknowledgements
+
+We would like to thank Unidata, Julien Chastang, and Bobby Espinoza for their assistance setting up the JupyterHub server. The JupyterHub is supported by Unidata's Science Gateway (`doi:10.5065/688s-2w73`). 
