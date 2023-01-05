@@ -347,7 +347,7 @@ PID_use_attenuation_corrected_fields = TRUE;
 // Type: string
 //
 
-RATE_params_file_path = "$(BASE_DIR)/params/echo/RadxRate_rate_params";
+RATE_params_file_path = "use-defaults";
 
 ///////////// RATE_use_KDP_self_consistency ///////////
 //
@@ -375,7 +375,7 @@ RATE_use_KDP_self_consistency = FALSE;
 // Type: boolean
 //
 
-RATE_use_attenuation_corrected_fields = TRUE;
+RATE_use_attenuation_corrected_fields = FALSE;
 
 //======================================================================
 //
@@ -452,7 +452,7 @@ output_fields = {
     long_name = "precip_rate_from_z",
     standard_name = "precip_rate_from_z",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
@@ -479,7 +479,7 @@ output_fields = {
     long_name = "precip_rate_from_kdp",
     standard_name = "precip_rate_from_kdp",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
@@ -497,7 +497,7 @@ output_fields = {
     long_name = "precip_rate_hybrid_of_zh_zzdr_kdp_and_kdpzdr",
     standard_name = "precip_rate_hybrid_of_zh_zzdr_kdp_and_kdpzdr",
     units = "mm/hr",
-    do_write = TRUE
+    do_write = FALSE
   }
   ,
   {
