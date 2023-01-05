@@ -532,7 +532,7 @@ copy_fields = {
     input_name = "NCP",
     output_name = "NCP",
     censor_non_weather = TRUE
-  
+  }
 };
 
 //======================================================================
