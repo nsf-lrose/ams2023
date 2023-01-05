@@ -2244,6 +2244,15 @@ censored_output_fields = {
   }
   ,
   {
+    input_name = "PHIDP",
+    output_name = "PHIDP",
+    apply_rlan_censoring = FALSE,
+    apply_seaclut_censoring = FALSE,
+    apply_pid_censoring = FALSE,
+    apply_input_field_censoring = TRUE
+  }
+  ,
+  {
     input_name = "RHOHV",
     output_name = "RHOHV",
     apply_rlan_censoring = FALSE,
