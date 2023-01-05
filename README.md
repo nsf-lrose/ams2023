@@ -17,7 +17,9 @@ Running the tutorials on a local machine will require the Jupyter notebook inter
 * Echo
     * RadxRate_tutorial.ipynb
       * RadxRate, Grib2toMdv, Mdv2SoundingSpdb, RadxConvert
-
+* QC
+    * QC_tutorial.ipynb
+      * RadxPid, RadxRate, RadxQc
 * Wind
     * FRACTL
     * SAMURAI
@@ -31,4 +33,4 @@ Running the tutorials on a local machine will require the Jupyter notebook inter
 
 ### Acknowledgements
 
-We would like to thank Julien Chastang and Bobby Espinoza for their assistance setting up the JupyterHub server. The JupyterHub server is a part of Unidata's Science Gateway (`doi:10.5065/688s-2w73`). 
+We would like to thank Julien Chastang and Ana Espinoza for their assistance setting up the JupyterHub server. The JupyterHub server is a part of Unidata's Science Gateway (`https://doi.org/10.5065/688s-2w73`). 
