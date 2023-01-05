@@ -523,6 +523,12 @@ copy_fields = {
   }
   ,
   {
+    input_name = "ZDR",
+    output_name = "ZDR",
+    censor_non_weather = TRUE
+  }
+  ,
+  {
     input_name = "RHOHV",
     output_name = "RHOHV",
     censor_non_weather = TRUE
