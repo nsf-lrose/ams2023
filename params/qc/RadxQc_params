@@ -2101,65 +2101,6 @@ site_temp_search_margin_secs = 3600;
 //
 
 output_fields = {
-  {
-    id = DBZ,
-    name = "DBZ",
-    long_name = "radar_reflectivity",
-    standard_name = "equivalent_reflectivity_factor",
-    units = "dBZ",
-    encoding = OUTPUT_ENCODING_INT16,
-    scaling = OUTPUT_SCALING_DYNAMIC,
-    scale = 0.01,
-    offset = 0
-  }
-  ,
-  {
-    id = ZDR,
-    name = "ZDR",
-    long_name = "calibrated_log_differential_reflectivity",
-    standard_name = "log_differential_reflectivity",
-    units = "dB",
-    encoding = OUTPUT_ENCODING_INT16,
-    scaling = OUTPUT_SCALING_DYNAMIC,
-    scale = 0.01,
-    offset = 0
-  }
-  ,
-  {
-    id = RHOHV,
-    name = "RHOHV",
-    long_name = "cross_correlation_ratio",
-    standard_name = "cross_correlation_ratio_hv",
-    units = "",
-    encoding = OUTPUT_ENCODING_INT16,
-    scaling = OUTPUT_SCALING_DYNAMIC,
-    scale = 0.001,
-    offset = 0
-  }
-  ,
-  {
-    id = PHIDP,
-    name = "PHIDP",
-    long_name = "differential_phase",
-    standard_name = "differential_phase_hv",
-    units = "deg",
-    encoding = OUTPUT_ENCODING_INT16,
-    scaling = OUTPUT_SCALING_DYNAMIC,
-    scale = 0.01,
-    offset = 0
-  }
-  ,
-  {
-    id = NCP,
-    name = "NCP",
-    long_name = "normalized_coherent_power",
-    standard_name = "normalized_coherent_power",
-    units = "",
-    encoding = OUTPUT_ENCODING_INT16,
-    scaling = OUTPUT_SCALING_DYNAMIC,
-    scale = 0.001,
-    offset = 0
-  }
 };
 
 //======================================================================
@@ -2239,7 +2180,7 @@ censoring_input_fields = {
 // Type: int
 //
 
-input_field_censoring_min_valid_run = 1;
+input_field_censoring_min_valid_run = 5;
 
 //======================================================================
 //
@@ -2301,6 +2242,24 @@ censored_output_fields = {
     apply_pid_censoring = FALSE,
     apply_input_field_censoring = TRUE
   }
+  ,
+  {
+    input_name = "RHOHV",
+    output_name = "RHOHV",
+    apply_rlan_censoring = FALSE,
+    apply_seaclut_censoring = FALSE,
+    apply_pid_censoring = FALSE,
+    apply_input_field_censoring = FALSE
+  }
+  ,
+  {
+    input_name = "NCP",
+    output_name = "NCP",
+    apply_rlan_censoring = FALSE,
+    apply_seaclut_censoring = FALSE,
+    apply_pid_censoring = FALSE,
+    apply_input_field_censoring = FALSE
+  }
 };
 
 ///////////// censoring_ignore_isolated_gates /////////
@@ -2316,7 +2275,7 @@ censored_output_fields = {
 // Type: boolean
 //
 
-censoring_ignore_isolated_gates = TRUE;
+censoring_ignore_isolated_gates = FALSE;
 
 ///////////// censoring_max_isolated_ngates ///////////
 //
