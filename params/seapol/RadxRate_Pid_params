@@ -24,7 +24,7 @@
 // Type: string
 //
 
-PID_thresholds_file_path = "$(BASE_DIR)/params/Pid_thresholds.cband.shv.txt";
+PID_thresholds_file_path = "$(BASE_DIR)/params/seapol/Pid_thresholds.cband.shv.txt";
 
 ///////////// PID_snr_threshold ///////////////////////
 //
@@ -300,7 +300,7 @@ PID_melting_layer_spdb_output_url = "/tmp/spdb/melting_layer";
 // Type: boolean
 //
 
-PID_use_soundings_from_spdb = FALSE;
+PID_use_soundings_from_spdb = TRUE;
 
 ///////////// PID_sounding_spdb_url ///////////////////
 //
@@ -310,7 +310,7 @@ PID_use_soundings_from_spdb = FALSE;
 // Type: string
 //
 
-PID_sounding_spdb_url = "$(BASE_DIR)/data/sounding/spdb/";
+PID_sounding_spdb_url = "$(BASE_DIR)data/seapol/";
 
 ///////////// PID_sounding_search_time_margin_secs ////
 //
@@ -336,7 +336,7 @@ PID_sounding_search_time_margin_secs = 86400;
 // Type: string
 //
 
-PID_sounding_location_name = "$(RADAR_NAME)";
+PID_sounding_location_name = "SEAPOL";
 
 ///////////// PID_sounding_check_pressure_range ///////
 //
