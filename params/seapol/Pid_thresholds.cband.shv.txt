@@ -565,7 +565,7 @@ Tbl.Zh.Rhv.Gcl    (-20,70)   (.2,1) (.7,1) (.8,0)
 #
 # Membership functions for Temperature
 
-Tbl.Zh.Tmp.CL    (-20,0)   (-1,0) (-1,1) (40,1)
+Tbl.Zh.Tmp.CL    (-20,0)   (-1,0) (1,1) (40,1)
 Tbl.Zh.Tmp.Drz    (0,20)   (-1,0) (1,1) (40,1)
 Tbl.Zh.Tmp.Lr    (20,40)   (-1,0) (1,1) (40,1)
 Tbl.Zh.Tmp.Mr    (30,50)   (-1,0) (1,1) (40,1)
