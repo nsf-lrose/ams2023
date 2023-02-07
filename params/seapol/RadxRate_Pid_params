@@ -310,7 +310,7 @@ PID_use_soundings_from_spdb = TRUE;
 // Type: string
 //
 
-PID_sounding_spdb_url = "$(BASE_DIR)data/seapol/soundings";
+PID_sounding_spdb_url = "$(BASE_DIR)data/seapol/sounding";
 
 ///////////// PID_sounding_search_time_margin_secs ////
 //
