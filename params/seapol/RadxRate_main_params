@@ -649,7 +649,7 @@ copy_fields = {
   }
   ,
   {
-    input_name = "SW",
+    input_name = "WIDTH",
     output_name = "WIDTH",
     censor_non_weather = TRUE
   }
@@ -661,13 +661,13 @@ copy_fields = {
   }
   ,
   {
-    input_name = "PHI",
+    input_name = "PHIDP",
     output_name = "PHIDP",
     censor_non_weather = TRUE
   }
   ,
   {
-    input_name = "RHO",
+    input_name = "RHOHV",
     output_name = "RHOHV",
     censor_non_weather = TRUE
   }
